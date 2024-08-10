@@ -1,4 +1,4 @@
-﻿namespace LiveMoney2
+﻿namespace LiveMoney3
 {
     partial class MainForm
     {
@@ -93,7 +93,6 @@
             label28 = new Label();
             label27 = new Label();
             panelCalculator = new Panel();
-            button21 = new Button();
             btnEqual = new Button();
             button18 = new Button();
             button19 = new Button();
@@ -580,7 +579,7 @@
             label24.BackColor = Color.Thistle;
             label24.Dock = DockStyle.Bottom;
             label24.Font = new Font("微軟正黑體 Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label24.Location = new Point(0, 446);
+            label24.Location = new Point(0, 426);
             label24.Name = "label24";
             label24.Size = new Size(925, 40);
             label24.TabIndex = 50;
@@ -664,7 +663,7 @@
             panelMoney.Controls.Add(label4);
             panelMoney.Location = new Point(12, 82);
             panelMoney.Name = "panelMoney";
-            panelMoney.Size = new Size(602, 361);
+            panelMoney.Size = new Size(602, 336);
             panelMoney.TabIndex = 53;
             // 
             // label38
@@ -870,7 +869,6 @@
             // panelCalculator
             // 
             panelCalculator.BorderStyle = BorderStyle.FixedSingle;
-            panelCalculator.Controls.Add(button21);
             panelCalculator.Controls.Add(btnEqual);
             panelCalculator.Controls.Add(button18);
             panelCalculator.Controls.Add(button19);
@@ -892,28 +890,17 @@
             panelCalculator.Controls.Add(button2);
             panelCalculator.Controls.Add(btnClear);
             panelCalculator.Controls.Add(tbResult);
-            panelCalculator.Location = new Point(620, 82);
+            panelCalculator.Location = new Point(620, 50);
             panelCalculator.Name = "panelCalculator";
-            panelCalculator.Size = new Size(293, 361);
+            panelCalculator.Size = new Size(293, 368);
             panelCalculator.TabIndex = 54;
-            // 
-            // button21
-            // 
-            button21.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button21.Location = new Point(223, 77);
-            button21.Name = "button21";
-            button21.Size = new Size(67, 42);
-            button21.TabIndex = 21;
-            button21.TabStop = false;
-            button21.Text = "＜x";
-            button21.UseVisualStyleBackColor = true;
             // 
             // btnEqual
             // 
             btnEqual.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btnEqual.Location = new Point(223, 309);
+            btnEqual.Location = new Point(223, 305);
             btnEqual.Name = "btnEqual";
-            btnEqual.Size = new Size(67, 42);
+            btnEqual.Size = new Size(67, 50);
             btnEqual.TabIndex = 20;
             btnEqual.TabStop = false;
             btnEqual.Text = "＝";
@@ -923,9 +910,9 @@
             // button18
             // 
             button18.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button18.Location = new Point(150, 309);
+            button18.Location = new Point(150, 305);
             button18.Name = "button18";
-            button18.Size = new Size(67, 42);
+            button18.Size = new Size(67, 50);
             button18.TabIndex = 19;
             button18.TabStop = false;
             button18.Text = ".";
@@ -934,9 +921,9 @@
             // button19
             // 
             button19.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button19.Location = new Point(77, 309);
+            button19.Location = new Point(77, 305);
             button19.Name = "button19";
-            button19.Size = new Size(67, 42);
+            button19.Size = new Size(67, 50);
             button19.TabIndex = 18;
             button19.TabStop = false;
             button19.Text = "0";
@@ -946,9 +933,9 @@
             // button20
             // 
             button20.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button20.Location = new Point(3, 309);
+            button20.Location = new Point(3, 305);
             button20.Name = "button20";
-            button20.Size = new Size(67, 42);
+            button20.Size = new Size(67, 50);
             button20.TabIndex = 17;
             button20.TabStop = false;
             button20.Text = "+/-";
@@ -957,9 +944,9 @@
             // button13
             // 
             button13.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button13.Location = new Point(223, 263);
+            button13.Location = new Point(223, 249);
             button13.Name = "button13";
-            button13.Size = new Size(67, 42);
+            button13.Size = new Size(67, 50);
             button13.TabIndex = 16;
             button13.TabStop = false;
             button13.Text = "+";
@@ -969,9 +956,9 @@
             // button14
             // 
             button14.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button14.Location = new Point(150, 263);
+            button14.Location = new Point(150, 249);
             button14.Name = "button14";
-            button14.Size = new Size(67, 42);
+            button14.Size = new Size(67, 50);
             button14.TabIndex = 15;
             button14.TabStop = false;
             button14.Text = "3";
@@ -981,9 +968,9 @@
             // button15
             // 
             button15.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button15.Location = new Point(77, 263);
+            button15.Location = new Point(77, 249);
             button15.Name = "button15";
-            button15.Size = new Size(67, 42);
+            button15.Size = new Size(67, 50);
             button15.TabIndex = 14;
             button15.TabStop = false;
             button15.Text = "2";
@@ -993,9 +980,9 @@
             // button16
             // 
             button16.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button16.Location = new Point(3, 263);
+            button16.Location = new Point(3, 249);
             button16.Name = "button16";
-            button16.Size = new Size(67, 42);
+            button16.Size = new Size(67, 50);
             button16.TabIndex = 13;
             button16.TabStop = false;
             button16.Text = "1";
@@ -1005,9 +992,9 @@
             // button9
             // 
             button9.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button9.Location = new Point(223, 215);
+            button9.Location = new Point(223, 193);
             button9.Name = "button9";
-            button9.Size = new Size(67, 42);
+            button9.Size = new Size(67, 50);
             button9.TabIndex = 12;
             button9.TabStop = false;
             button9.Text = "-";
@@ -1017,9 +1004,9 @@
             // button10
             // 
             button10.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button10.Location = new Point(150, 215);
+            button10.Location = new Point(150, 193);
             button10.Name = "button10";
-            button10.Size = new Size(67, 42);
+            button10.Size = new Size(67, 50);
             button10.TabIndex = 11;
             button10.TabStop = false;
             button10.Text = "6";
@@ -1029,9 +1016,9 @@
             // button11
             // 
             button11.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button11.Location = new Point(77, 215);
+            button11.Location = new Point(77, 193);
             button11.Name = "button11";
-            button11.Size = new Size(67, 42);
+            button11.Size = new Size(67, 50);
             button11.TabIndex = 10;
             button11.TabStop = false;
             button11.Text = "5";
@@ -1041,9 +1028,9 @@
             // button12
             // 
             button12.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button12.Location = new Point(3, 215);
+            button12.Location = new Point(3, 193);
             button12.Name = "button12";
-            button12.Size = new Size(67, 42);
+            button12.Size = new Size(67, 50);
             button12.TabIndex = 9;
             button12.TabStop = false;
             button12.Text = "4";
@@ -1053,9 +1040,9 @@
             // button5
             // 
             button5.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button5.Location = new Point(223, 169);
+            button5.Location = new Point(223, 137);
             button5.Name = "button5";
-            button5.Size = new Size(67, 42);
+            button5.Size = new Size(67, 50);
             button5.TabIndex = 8;
             button5.TabStop = false;
             button5.Text = "*";
@@ -1065,9 +1052,9 @@
             // button6
             // 
             button6.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button6.Location = new Point(150, 169);
+            button6.Location = new Point(150, 137);
             button6.Name = "button6";
-            button6.Size = new Size(67, 42);
+            button6.Size = new Size(67, 50);
             button6.TabIndex = 7;
             button6.TabStop = false;
             button6.Text = "9";
@@ -1077,9 +1064,9 @@
             // button7
             // 
             button7.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button7.Location = new Point(77, 169);
+            button7.Location = new Point(77, 137);
             button7.Name = "button7";
-            button7.Size = new Size(67, 42);
+            button7.Size = new Size(67, 50);
             button7.TabIndex = 6;
             button7.TabStop = false;
             button7.Text = "8";
@@ -1089,9 +1076,9 @@
             // button8
             // 
             button8.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button8.Location = new Point(3, 169);
+            button8.Location = new Point(3, 137);
             button8.Name = "button8";
-            button8.Size = new Size(67, 42);
+            button8.Size = new Size(67, 50);
             button8.TabIndex = 5;
             button8.TabStop = false;
             button8.Text = "7";
@@ -1101,9 +1088,9 @@
             // button4
             // 
             button4.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.Location = new Point(223, 123);
+            button4.Location = new Point(223, 81);
             button4.Name = "button4";
-            button4.Size = new Size(67, 42);
+            button4.Size = new Size(67, 50);
             button4.TabIndex = 4;
             button4.TabStop = false;
             button4.Text = "/";
@@ -1113,9 +1100,9 @@
             // button3
             // 
             button3.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(150, 123);
+            button3.Location = new Point(150, 81);
             button3.Name = "button3";
-            button3.Size = new Size(67, 42);
+            button3.Size = new Size(67, 50);
             button3.TabIndex = 3;
             button3.TabStop = false;
             button3.Text = "%";
@@ -1124,9 +1111,9 @@
             // button2
             // 
             button2.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(77, 123);
+            button2.Location = new Point(77, 81);
             button2.Name = "button2";
-            button2.Size = new Size(67, 42);
+            button2.Size = new Size(67, 50);
             button2.TabIndex = 2;
             button2.TabStop = false;
             button2.Text = "( )";
@@ -1135,9 +1122,9 @@
             // btnClear
             // 
             btnClear.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btnClear.Location = new Point(3, 123);
+            btnClear.Location = new Point(3, 81);
             btnClear.Name = "btnClear";
-            btnClear.Size = new Size(67, 42);
+            btnClear.Size = new Size(67, 50);
             btnClear.TabIndex = 1;
             btnClear.TabStop = false;
             btnClear.Text = "C";
@@ -1163,7 +1150,7 @@
             AutoScaleDimensions = new SizeF(8F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
-            ClientSize = new Size(925, 486);
+            ClientSize = new Size(925, 466);
             Controls.Add(panelCalculator);
             Controls.Add(panelMoney);
             Controls.Add(label26);
@@ -1275,6 +1262,5 @@
         private Button button14;
         private Button button15;
         private Button button16;
-        private Button button21;
     }
 }

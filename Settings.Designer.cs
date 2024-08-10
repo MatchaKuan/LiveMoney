@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LiveMoney2 {
+namespace LiveMoney3 {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

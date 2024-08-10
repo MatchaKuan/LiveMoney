@@ -1,4 +1,4 @@
-namespace LiveMoney2
+namespace LiveMoney3
 {
     internal static class Program
     {
