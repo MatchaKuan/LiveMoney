@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LiveMoney2" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Income" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">45000</Value>
+    </Setting>
+    <Setting Name="M_Pocketmoney" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="M_Monthly" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1610</Value>
+    </Setting>
+    <Setting Name="M_Annual" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">6200</Value>
+    </Setting>
+    <Setting Name="M_Home" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="M_Public" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">19200</Value>
+    </Setting>
+    <Setting Name="M_Dream" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="M_Investment" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="M_Backup" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="Bank01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">台新銀行 子罐頭</Value>
+    </Setting>
+    <Setting Name="Bank02" Type="System.String" Scope="User">
+      <Value Profile="(Default)">中國信託 數位</Value>
+    </Setting>
+    <Setting Name="Bank03" Type="System.String" Scope="User">
+      <Value Profile="(Default)">中國信託 活儲</Value>
+    </Setting>
+    <Setting Name="Bank04" Type="System.String" Scope="User">
+      <Value Profile="(Default)">國泰世華</Value>
+    </Setting>
+    <Setting Name="Bank05" Type="System.String" Scope="User">
+      <Value Profile="(Default)">國泰世華 子帳戶</Value>
+    </Setting>
+    <Setting Name="Bank06" Type="System.String" Scope="User">
+      <Value Profile="(Default)">玉山銀行 數位</Value>
+    </Setting>
+    <Setting Name="Bank07" Type="System.String" Scope="User">
+      <Value Profile="(Default)">玉山銀行 活儲</Value>
+    </Setting>
+    <Setting Name="Bank08" Type="System.String" Scope="User">
+      <Value Profile="(Default)">連線銀行</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
